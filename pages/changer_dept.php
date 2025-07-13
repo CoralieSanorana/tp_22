@@ -1,7 +1,7 @@
  <?php 
 $id_emp = $_GET['id_emp'];
 $employer = avoir_employe($id_emp);
-$departements = tous_departement();
+$departements = pas_tous_departement($id_emp);
 $sondepartement = son_departement($id_emp);
 
 $connexion = connexion();
