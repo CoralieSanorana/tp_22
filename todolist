@@ -1,0 +1,42 @@
+[ok]- inserer les bases de donnees 
+[ok]- faire la factorisation des pages
+
+[ok]- afficher la liste des departments
+    *[ok] creer une fonction qui recupere tous les departments
+    *[ok] appel a la fonction dans index.php
+    *[ok] afficher la liste dans un tableau
+
+[ok]- ajouter la colonne qui affiche le manager en cours
+    *[ok] creer une fonction qui recupere les managers en cours de chaque department
+    *[ok] appel a la fonction dans index.php
+    *[ok] afficher la liste dans le tableau ou il y a les departments
+
+[ok]- Mettre un lien sur chaque ligne de departement pour afficher dans la page employer.php la liste des
+employes de ce departement.
+    *[ok] creer une fonction qui recupere tous les employes dans un departement
+    *[ok] appel a la fonction dans employer.php
+    *[ok] afficher la liste dans un tableau
+
+[ok]- Lorsqu'on clique sur un employé, on doit afficher la fiche de l'employé dans la page fiche.php
+    *[ok] creer une fonction qui recupere tous les informations d'un employer
+    *[ok] appel a la fonction dans fiche.php
+    *[ok] afficher les informations
+
+[ok]- Rajouter l'historique du salaire et de l'emploi occuper par la personne dans la fiche
+
+[ok]- Créer un formulaire de recherche a requete multiple
+
+[ok]- creer des view
+
+[ok] - ajouter un bouton dans fiche d'employer (changer de departement)
+    [ok] dirige vers changer_dept.php pour afficher un formulaire
+        [ok] liste deroulante des departements
+        [ok] input date (minimum current_date)
+    [ok] creer une fonction update le nouveau departement de cet employer
+    [ok] appel a cette fonction
+
+[ok] - ajouter un bouton dans fiche d'employer (devenir manager de son departement)
+    [ok] dirige vers devenir.php pour afficher un formulaire
+        [ok] input date (minimum current_date)
+    [ok] creer une fonction update le nouveau departement de cet employer
+    [ok] appel a cette fonction
